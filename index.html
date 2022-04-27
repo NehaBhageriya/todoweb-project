@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO JS</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Task List</h1>
+            <div>
+                <span class="fa-solid fa-circle-plus" id="icon" onclick="addlist()"></span>
+                <h1 style="display: inline-block;">Add Item</h1>
+            </div>
+        </div>
+        <h1 style="margin-left:18% ;" id="content">No Item in todo list</h1>
+    </div>
+    <div class="container1" id="container1">
+        <h2>Add New List</h2>
+        <input class="inputbox" type="text" name="name" id="name" value="" placeholder="Add New List">
+        <br>
+        <br>
+        <button onclick="changeHere()">ADD</button>
+        <button>ClOSE</button>
+    </div>
+    <div id="parent"></div>
+    <div class="container1" id="container2">
+        <h2>Add New List</h2>
+        <input class="inputbox" type="text" name="itemname" id="itemname" value="" placeholder="Add New List">
+        <br>
+        <br>
+        <button onclick="additemlist()">ADD</button>
+        <button>ClOSE</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

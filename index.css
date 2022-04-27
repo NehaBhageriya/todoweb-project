@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.main {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#icon {
+    color: blue;
+}
+
+.container1 {
+    display: none;
+    background-color: white;
+    color: red;
+    border-radius: 12px;
+    color: red;
+    text-align: center;
+    height: 195px;
+    width: 382px;
+    text-align: center;
+    padding-top: 17px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+
+}
+
+button {
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 22px;
+    color: white;
+    height: 35px;
+    width: 81px;
+}
+
+.inputbox {
+    height: 37px;
+    width: 250px;
+    text-align: center;
+}
+
+#parent{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-right: 18%;
+    }
+    .child{
+        display: inline-block;
+    /* height: 300px;
+    width: 200px; */
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    color: red;
+    font-size: 30px;
+    color:rgb(218, 104, 104);
+    padding-top: 20px;
+    padding-bottom:10px ;
+    border-radius: 12px;
+    text-align: center;
+    }
+    .delete,.plus {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        color:blue;
+        font-size: 27px;
+        position:relative;
+        top:200px;
+        left:50px;
+        padding:5px;
+    }
+    .anotherchild{
+        color: black;
+        font-size:20px;
+    
+    }
+    #btn{
+        font-size:15 px;
+        cursor:pointer; 
+        height:18px;
+         border-radius:10px; 
+         background-color:blue;
+         border-style: none;
+    }
